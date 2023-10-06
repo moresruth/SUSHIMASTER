@@ -4,6 +4,10 @@ import japtext from '../assets/japtext-01.png'
 import aboutImg from '../assets/imgAbout.svg'
 import UmarakiImg from '../assets/Umaraki.png'
 import TemakiImg from '../assets/Temaki-img.png'
+import salmontemaki from '../assets/salmontemaki.png'
+import tamagoyaki from '..//assets/tamagoyaki.png'
+import hosomaki from '../assets/hosomaki.png'
+
 export default{
   Brand,
   heroImg,
@@ -11,4 +15,7 @@ export default{
   aboutImg,
   TemakiImg,
   UmarakiImg,
+  salmontemaki,
+  tamagoyaki,
+  hosomaki,
 }

@@ -1,0 +1,52 @@
+.app__productcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 400px;
+  position: relative;
+  background-color: var(--light-color);
+  padding: 7rem 2rem 3rem;
+  box-shadow: 0 8px 20px hsla(19, 64%, 48%, 0.08);
+  border-radius: 1rem;
+  text-align: center;
+
+  margin: 0 1rem;
+
+  img {
+    width: 220px;
+    position: absolute;
+    inset: 0;
+    top: -2.5rem;
+    margin: 0 auto;
+    transition: transform 0.4s;
+
+    &:hover {
+      transform: translateY(-2.5rem);
+    }
+  }
+
+  span {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    width: auto;
+    height: auto;
+
+    li:nth-child(2) {
+      font-size: 1.4rem;
+      margin-left: 1rem;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 280px;
+  }
+}

@@ -6,12 +6,12 @@
 
   --primary-color: #fff0de;
   --secondary-color: #f8a6a2;
+  --light-color: #fff1eb;
   --lightred-color: #ff4040;
   --brown-color: #3d2020;
   --black-color: #030303;
   --lightGray-color: #e4e4e4;
   --gray-color: #6b7688;
-  /* --brown-color: #46364a; */
   --white-color: #ffffff;
   --border-solid: #ffff 0.4;
 }
@@ -28,6 +28,8 @@ body {
   color: var(--black-color);
 }
 
+ul,
+li,
 a {
   list-style: none;
 }

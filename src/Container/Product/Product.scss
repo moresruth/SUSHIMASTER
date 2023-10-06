@@ -1,0 +1,19 @@
+.app__product-content {
+  margin: 5rem 0;
+}
+.product__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__product-content_item {
+  display: flex;
+  flex-direction: row;
+  padding: 8rem 0 5rem 0;
+
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+    gap: 6rem;
+  }
+}
