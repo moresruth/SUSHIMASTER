@@ -1,0 +1,22 @@
+.app__testimonial {
+  background-color: var(--secondary-color);
+  height: auto;
+}
+
+.app__testimonial-content {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+}
+
+.app__testimonial-content_leftside {
+  margin: 3rem 2rem;
+
+  width: 45%;
+
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+}

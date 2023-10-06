@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import "./App.scss";
 import Navbar from "./Components/Navbar/Navbar";
-import { About, Hero, TodaysMenu } from "./Container";
+import { About, Hero, Testimonial, TodaysMenu } from "./Container";
 import Product from "./Container/Product/Product";
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
       <About />
       <TodaysMenu />
       <Product />
+      <Testimonial />
     </div>
   );
 }

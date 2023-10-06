@@ -7,6 +7,10 @@ import TemakiImg from '../assets/Temaki-img.png'
 import salmontemaki from '../assets/salmontemaki.png'
 import tamagoyaki from '..//assets/tamagoyaki.png'
 import hosomaki from '../assets/hosomaki.png'
+import testimonial from '../assets/testimonial.png'
+import profile01 from '../assets/profile-01.png'
+import profile02 from '../assets/profile-02.png'
+import profile03 from '../assets/profile-03.png'
 
 export default{
   Brand,
@@ -18,4 +22,9 @@ export default{
   salmontemaki,
   tamagoyaki,
   hosomaki,
+  testimonial,
+  profile01,
+  profile02,
+  profile03,
+
 }
