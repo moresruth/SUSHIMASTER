@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import "./App.scss";
 import Navbar from "./Components/Navbar/Navbar";
-import { Hero } from "./Container";
+import { About, Hero, TodaysMenu } from "./Container";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,6 +11,8 @@ function App() {
     <div className="app app__container">
       <Navbar />
       <Hero />
+      <About />
+      <TodaysMenu />
     </div>
   );
 }
