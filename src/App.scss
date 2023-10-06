@@ -1,0 +1,79 @@
+.app {
+  font-family: var(--font-base);
+}
+
+.section {
+  padding-block: 5.5rem 1rem;
+}
+
+.app__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app__container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.app__wrapper {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.app__section {
+  margin-top: 5rem;
+}
+
+.bold-text {
+  font-size: 6rem;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 4.5rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 2.5rem;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 2.5rem;
+  }
+}
+
+.p__playfair {
+  font-family: var(--font-base);
+  color: var(--color-white);
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+.p__poppins {
+  font-family: var(--font-alt);
+  font-size: 16px;
+  line-height: 1.5rem;
+  padding: 2rem 0.5rem;
+}
+
+.app__button {
+  height: 56px;
+  padding: 7px 24px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 25px;
+  background: #3d2020;
+  border-style: none;
+  color: var(--white-color);
+  font-family: var(--font-alt);
+  font-size: 16px;
+  font-weight: 900;
+
+  &:hover {
+    background-color: var(--white-color);
+    color: var(--brown-color);
+    border: 3px solid var(--brown-color);
+  }
+}
