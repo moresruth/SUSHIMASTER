@@ -5,7 +5,7 @@ import { images } from "../../constants";
 
 const Hero = () => {
   return (
-    <section className="app__hero app__container">
+    <section className="app__hero app__container" id="home">
       <div className="app__hero-content  ">
         <div className="app__hero-content_info">
           <h1 className="bold-text">

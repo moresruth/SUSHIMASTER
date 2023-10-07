@@ -5,7 +5,7 @@ import { images } from "../../constants";
 
 const About = () => {
   return (
-    <section className="app__about app__container">
+    <section className="app__about app__container" id="about">
       <SectionTitle title="About Us" subtitle="私たちについて" />
       <div className="app__about-content app__wrapper">
         <div className="app__about-content_right">

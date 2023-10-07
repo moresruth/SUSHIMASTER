@@ -12,7 +12,7 @@ const Navbar = () => {
         <img src={images.Brand} alt="app__logo" />
       </div>
       <ul className="app__navbar-links">
-        {["home", "about us", "popular", "testimonial"].map((item) => (
+        {["home", "about", "products", "testimonial"].map((item) => (
           <li className=" p__poppins" key={`link-${item}`}>
             <div />
             <a href={`#${item}`}>{item}</a>
@@ -37,7 +37,7 @@ const Navbar = () => {
               onClick={() => setToggleMenu(false)}
             />
             <ul className="app__navbar-smallscreen_links">
-              {["home", "about", "work", "skills", "contact"].map((item) => (
+              {["home", "about", "products", "testimonial"].map((item) => (
                 <li key={item}>
                   <a href={`#${item}`} onClick={() => setToggleMenu(false)}>
                     {item}
