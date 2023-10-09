@@ -7,7 +7,7 @@ import Product from "./Container/Product/Product";
 
 function App() {
   return (
-    <div className="app app__container">
+    <div className="app">
       <Navbar />
       <Hero />
       <About />
