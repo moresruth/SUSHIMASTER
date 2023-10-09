@@ -1,5 +1,5 @@
 .app__testimonial {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
 }
 
 .app__testimonial-content {
@@ -15,9 +15,10 @@
   padding: 2rem;
 
   h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     padding: 2rem;
+    font-family: var(--font-base);
 
     @media screen and (max-width: 1024px) {
       font-size: 2rem;

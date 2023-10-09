@@ -4,14 +4,14 @@
   margin: 0 2rem;
 
   position: relative;
-  background-color: var(--light-color);
+  background-color: var(--white-color);
 
-  padding: 2rem 1rem;
+  padding: 1rem;
   box-shadow: 0 8px 20px hsla(19, 64%, 48%, 0.08);
   border-radius: 1rem;
   text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .app__testimonialcard-profile {
@@ -30,5 +30,5 @@
 }
 
 .app__testimonialcard-comment {
-  margin: 1rem;
+  margin: 0.5rem 1rem;
 }
