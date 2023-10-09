@@ -4,13 +4,13 @@
   --font-base: "Playfair Display", serif;
   --font-alt: "Poppins", sans-serif;
 
-  --primary-color: #fff0de;
-  --secondary-color: #f8a6a2;
-  --light-color: #fff1eb;
-  --lightred-color: #ff4040;
+  --bg-color: #fff0de;
+  --primary-color: #f8a6a2;
+  --secondary-color: #fff1eb;
+  --red-color: #ff4040;
   --brown-color: #3d2020;
   --black-color: #030303;
-  --lightGray-color: #e4e4e4;
+  --lightgray-color: #e4e4e4;
   --gray-color: #6b7688;
   --white-color: #ffffff;
   --border-solid: #ffff 0.4;
@@ -24,12 +24,11 @@
 }
 
 body {
-  background-color: var(--primary-color);
+  background-color: var(--bg-color);
   color: var(--black-color);
 }
 
 ul,
-li,
-a {
+li {
   list-style: none;
 }

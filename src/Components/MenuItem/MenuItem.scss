@@ -1,9 +1,23 @@
 .app__menuitem {
   width: 100%;
   margin: 1rem 0;
+  padding: 1rem 7rem;
 
   display: flex;
   flex-direction: column;
+
+  @media screen and (max-width: 1024px) {
+    padding: 1rem 2rem;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 1rem 7rem;
+  }
+  @media screen and (max-width: 480px) {
+    padding: 1rem 2rem;
+  }
+  @media screen and (max-width: 480px) {
+    padding: 1rem 1rem;
+  }
 }
 
 .app__menuitem-head {
