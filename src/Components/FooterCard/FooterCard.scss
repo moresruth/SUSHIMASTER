@@ -51,10 +51,15 @@
   @media screen and (max-width: 1024px) {
     padding: 1.5rem 0;
   }
+
+  @media screen and (max-width: 480px) {
+    margin-right: 0;
+  }
 }
 
 .app__footercard-socials {
   margin-right: 2rem;
+
   li {
     background-color: var(--brown-color);
     width: 50px;
@@ -69,5 +74,8 @@
         color: var(--primary-color);
       }
     }
+  }
+  @media screen and (max-width: 480px) {
+    margin-right: 0;
   }
 }
