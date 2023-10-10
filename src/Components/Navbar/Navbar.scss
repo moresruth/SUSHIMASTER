@@ -6,21 +6,17 @@
   position: fixed;
   z-index: 2;
 }
+
 .app__navbar-content {
+  display: flex;
+  // flex-direction: row;
+  flex-wrap: wrap;
   max-width: 1220px;
   margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
   padding: 1rem 0;
 
-  h1 {
-    font-family: var(--font-base);
-    font-weight: 900;
-  }
-
-  @media screen and (max-width: 1150px) {
-    justify-content: space-between;
+  @media screen and (max-width: 1024px) {
+    display: flex;
     padding: 1rem;
 
     .app__navbar-links {
@@ -29,118 +25,44 @@
 
     .app__navbar-smallscreen {
       display: flex;
-
-      svg {
-        font-size: 2rem;
-      }
     }
   }
 }
 
 .app__navbar-links {
-  flex: 1;
   display: flex;
+  flex: 1;
   justify-content: flex-end;
   align-items: center;
   list-style: none;
-  margin-right: 2rem;
 
   li {
     margin: 0 1.5rem;
     cursor: pointer;
     flex-direction: column;
-  }
 
-  a {
-    color: var(--black-color);
-    text-decoration: none;
-    text-transform: capitalize;
-    font-size: 16px;
-    font-weight: 500;
+    a {
+      color: var(--black-color);
+      text-decoration: none;
+      text-transform: capitalize;
+      font-size: 16px;
+      font-weight: 500;
 
-    transition: all 0.3s ease-in-out;
-    &:hover {
-      color: var(--white-color);
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        color: var(--darkprimary-color);
+      }
     }
   }
 }
-// .app__navbar {
-//   width: 100%;
-//   display: flex;
-
-//   align-items: center;
-//   padding: 1rem 2rem;
-//   backdrop-filter: blur(4px);
-//   -webkit-backdrop-filter: blur(4px);
-//   border: 1px solid rgba($color: #ffffff, $alpha: 0.18);
-//   position: fixed;
-//   z-index: 2;
-
-//   @media screen and (max-width: 1150px) {
-//     justify-content: space-between;
-
-//     .app__navbar-links {
-//       display: none;
-//     }
-
-//     .app__navbar-smallscreen {
-//       display: flex;
-
-//       svg {
-//         font-size: 2rem;
-//       }
-//     }
-//   }
-
-//   @media screen and (max-width: 480px) {
-//     padding: 0 2rem;
-//     justify-content: space-between;
-
-//     .app__navbar-logo img {
-//       width: 210px;
-//     }
-
-//     svg {
-//       font-size: 2rem;
-//     }
-//   }
-// }
-
-// .app__navbar-links {
-//   flex: 1;
-//   display: flex;
-//   justify-content: flex-end;
-//   align-items: center;
-//   list-style: none;
-//   margin-right: 2rem;
-
-//   li {
-//     margin: 0 1.5rem;
-//     cursor: pointer;
-//     flex-direction: column;
-
-//     a {
-//       color: var(--black-color);
-//       text-decoration: none;
-//       text-transform: capitalize;
-//       font-size: 16px;
-//       font-weight: 500;
-
-//       transition: all 0.3s ease-in-out;
-//       &:hover {
-//         color: var(--lightred-color);
-//       }
-//     }
-//     &:hover {
-//       div {
-//         background-color: var(--brown-color);
-//       }
-//     }
-//   }
-// }
 
 .app__navbar-smallscreen {
   display: none;
+
+  svg {
+    font-size: 30px;
+    font-weight: 800;
+  }
 
   .app__navbar-smallscreen_overlay {
     position: fixed;
@@ -157,7 +79,7 @@
 
     svg {
       color: var(--white-color);
-      font-size: 30;
+      font-size: 30px;
       font-weight: 800;
       cursor: pointer;
       position: absolute;

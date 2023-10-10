@@ -8,13 +8,14 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className="app__navbar">
-      <div className="app__navbar-content">
-        <h1>SUSHIMASTER</h1>
+    <div className="app__navbar ">
+      <div className="app__navbar-content ">
+        <a href="#home" className="app__logo">
+          SUSHIMASTER
+        </a>
         <ul className="app__navbar-links">
           {["home", "about", "products", "testimonial"].map((item) => (
             <li className=" p__poppins" key={`link-${item}`}>
-              <div />
               <a href={`#${item}`}>{item}</a>
             </li>
           ))}

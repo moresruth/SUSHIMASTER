@@ -12,9 +12,11 @@ const ProductCard = () => {
       <p>$456.90</p>
 
       <ul className="app__flex app__button">
-        <li>Buy Now</li>
-        <li className="app__button-svg">
-          <AiOutlineShopping />
+        <li>
+          Buy Now
+          <a className="app__button-svg">
+            <AiOutlineShopping fontSize={27} />
+          </a>
         </li>
       </ul>
     </div>

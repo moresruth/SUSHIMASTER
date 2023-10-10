@@ -16,9 +16,9 @@ const Hero = () => {
             Enjoy a good dinner wih the best dishes in the market. Feel the
             taste of the most popular Japanese food from anywhere and anytime
           </p>
-          <button href="#" className="app__button">
+          <a href="#about" className="app__button">
             Learn More
-          </button>
+          </a>
         </div>
         <div className="app__hero-content_img">
           <img src={images.heroImg} alt="sushi hero " />

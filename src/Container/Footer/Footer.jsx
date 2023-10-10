@@ -1,13 +1,16 @@
 import React from "react";
-import { Newsletter } from "../../Components";
+import "./Footer.scss";
+import { FooterCard, Newsletter } from "../../Components";
 
 const Footer = () => {
   return (
-    <div className="app__footer app__section">
-      <div className="app__footer-content app__container">
+    <footer className="app__footer">
+      <div className="app__footer-content ">
         <Newsletter />
+        <FooterCard />
       </div>
-    </div>
+      <p className="p__poppins app__flex">Designed By: Ruth Mores | 2023</p>
+    </footer>
   );
 };
 
